@@ -36,6 +36,7 @@
                 <h2 class="text-2xl font-bold text-slate-800">系統概述</h2>
             </div>
             <p class="text-slate-600 mb-6 text-lg">本平台包含網頁管理端與行動裝置應用程式（支援 iOS 與 Android），提供最即時的田間災損圖資與回報機制。</p>
+            <img src="https://hackmd.io/_uploads/SkWOmSxdeg.png" alt="系統架構圖" class="w-full rounded-xl shadow-sm border border-slate-200">
         </section>
 
         <div class="grid md:grid-cols-2 gap-8">
@@ -45,8 +46,24 @@
                     <h2 class="text-2xl font-bold text-slate-800">APP 下載與操作</h2>
                 </div>
 
-                <div class="space-y-4">
-                    <img src="https://hackmd.io/_uploads/ry4uQB7Ryl.png" alt="APP 下載 QR Code" class="w-full rounded-xl shadow-sm border border-slate-100">
+                <div class="bg-amber-50 border-l-4 border-amber-500 p-4 mb-6 rounded-r-lg text-amber-800 text-sm font-medium">
+                    ⚠️ 提醒：本年度系統已更新，請務必更新 APP 再進行資料上傳。
+                </div>
+
+                <div class="flex flex-col gap-3 mb-8">
+                    <a href="https://apps.apple.com/tw/app/field-watch-%E7%94%B0%E9%96%93%E5%8D%B3%E6%99%82%E9%80%9A%E5%A0%B1/id1143812853" target="_blank" class="flex items-center justify-center gap-2 bg-slate-900 text-white py-3 px-6 rounded-xl font-bold hover:bg-slate-800 transition shadow-sm">
+                        <span>🍎</span> 下載 iOS 版本 (App Store)
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=tw.gov.tari.agridis" target="_blank" class="flex items-center justify-center gap-2 bg-green-600 text-white py-3 px-6 rounded-xl font-bold hover:bg-green-700 transition shadow-sm">
+                        <span>🤖</span> 下載 Android 版本 (Google Play)
+                    </a>
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <p class="text-slate-500 text-sm mb-2 text-center">或掃描 QR Code 下載</p>
+                        <img src="https://hackmd.io/_uploads/ry4uQB7Ryl.png" alt="APP 下載 QR Code" class="w-full rounded-xl shadow-sm border border-slate-100">
+                    </div>
                     <img src="https://hackmd.io/_uploads/B1nhpZpixg.jpg" alt="APP 操作畫面" class="w-full rounded-xl shadow-sm border border-slate-100">
                 </div>
             </section>
@@ -55,11 +72,11 @@
                 <section id="support" class="bg-white rounded-2xl shadow-sm p-8 border border-slate-100">
                     <div class="flex items-center gap-3 mb-6">
                         <span class="text-3xl">💬</span>
-                        <h2 class="text-2xl font-bold text-slate-800">系統客服 LINE 官方帳號</h2>
+                        <h2 class="text-2xl font-bold text-slate-800">系統客服 LINE</h2>
                     </div>
-                    <p class="text-slate-600 mb-4">客服時間：週一至週五 09:00 - 18:00</p>
-                    <a href="https://lin.ee/rl6vldp" target="_blank" class="inline-block bg-[#06C755] text-white hover:bg-[#05b34c] px-6 py-2 rounded-lg font-bold shadow-sm transition mb-6">
-                        加入 LINE 好友
+                    <p class="text-slate-600 mb-4 text-sm">客服時間：週一至週五 09:00 - 18:00</p>
+                    <a href="https://lin.ee/rl6vldp" target="_blank" class="inline-block w-full text-center bg-[#06C755] text-white hover:bg-[#05b34c] px-6 py-3 rounded-xl font-bold shadow-sm transition mb-6">
+                        加入 LINE 官方帳號
                     </a>
                     <img src="https://hackmd.io/_uploads/Hy9IZTSGex.png" alt="LINE 客服 QR Code" class="w-48 mx-auto rounded-xl shadow-sm border border-slate-100">
                 </section>
@@ -69,10 +86,10 @@
                         <span class="text-3xl">⚙️</span>
                         <h2 class="text-2xl font-bold text-slate-800">後台權限與操作</h2>
                     </div>
-                    <p class="text-slate-600 mb-4">後台可新增帳號、查閱及下載調查資料。請留意帳號權限差異：</p>
-                    <ul class="list-disc list-inside text-slate-700 mb-6 space-y-2">
-                        <li><strong>管理者</strong>：可進入後台下載、查閱資料、新增帳號。</li>
-                        <li><strong>使用者</strong>：僅限 APP 操作，無法進入系統後台。</li>
+                    <p class="text-slate-600 mb-4 text-sm">請留意帳號權限差異：</p>
+                    <ul class="list-disc list-inside text-slate-700 mb-6 space-y-2 text-sm">
+                        <li><strong>管理者</strong>：可進入後台下載、查閱資料。</li>
+                        <li><strong>使用者</strong>：僅限 APP 操作回報。</li>
                     </ul>
                     <div class="space-y-4">
                         <img src="https://hackmd.io/_uploads/S1qhsaHfgx.png" alt="後台操作畫面 1" class="w-full rounded-lg shadow-sm border border-slate-100">
@@ -84,7 +101,7 @@
     </main>
 
     <footer class="bg-slate-800 text-slate-400 py-8 text-center mt-12">
-        <p>© 2026 Field Watch 農作物天然災害回報平台. All rights reserved.</p>
+        <p>© 2026 Field Watch 農作物天然災害回報平台</p>
     </footer>
 
 </body>
