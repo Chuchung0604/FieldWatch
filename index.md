@@ -1,14 +1,13 @@
 # 農作物天然災害回報平台懶人包 (天然災害回報)
- [:computer:系統概述](#系統概述)    
- [:iphone:APP操作](#APP操作)    
- [:raising_hand:系統客服](#系統客服line官方帳號)    
- [:+1:後台操作](#後台操作)    
+[💻系統概述](#系統概述)    
+[📱APP操作](#APP操作)    
+[🙋系統客服](#系統客服line官方帳號)    
+[👍後台操作](#後台操作)
 
 
 ## 系統概述
 
 包含網路平台和APP(iOS, Android)，APP的名稱為「Field Watch 田間即時通報」。
-![image](https://hackmd.io/_uploads/SkWOmSxdeg.png)
 
 
 **平台網址**
